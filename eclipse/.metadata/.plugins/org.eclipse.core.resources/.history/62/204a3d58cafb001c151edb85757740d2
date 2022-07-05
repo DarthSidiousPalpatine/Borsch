@@ -1,0 +1,23 @@
+package com.muurr.tfcplusborsch;
+
+import com.dunk.tfc.CommonProxy;
+import com.dunk.tfc.Core.FluidBaseTFC;
+import com.dunk.tfc.api.TFCFluids;
+import com.dunk.tfc.api.TFCItems;
+
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+
+public class Proxy extends CommonProxy {
+	public static final Fluid BORSCH = new FluidBaseTFC("borsch").setBaseColor(0x8c2c24);
+	public void registerFluids()
+	{
+		FluidRegistry.registerFluid(BORSCH);
+	}
+	public void setupFluids()
+	{
+		setupFluidDrinks(BORSCH, 1000, ItemSetup.borsch, TFCItems.glassBottle);
+		setupFluidDrinks(BORSCH, 1000, ItemSetup.woodenBucketBorsch, TFCItems.woodenBucketEmpty);
+		setupFluidDrinks(BORSCH, 1000, ItemSetup.clayBucketBorsch, TFCItems.clayBucketEmpty);
+	}
+}

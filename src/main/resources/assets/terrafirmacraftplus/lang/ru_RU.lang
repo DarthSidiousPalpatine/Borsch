@@ -1,0 +1,34 @@
+item.Chicken Bouillon.name=Бутылка куриного бульона
+item.Meat Boillon.name=Бутылка мясного бульона
+item.Fish Boillon.name=Бутылка рыбного бульона
+item.Mushroom Bouillon.name=Бутылка грибного бульона
+item.Bone Bouillon.name=Бутылка костяного бульона
+
+item.Chicken Soup.name=Бутылка куриного супа
+item.Potato Soup.name=Бутылка картофельного супа
+item.Cabbage Soup.name=Бутылка щей
+item.Borscht.name=Бутылка борща
+item.Fish Soup.name=Бутылка ухи
+item.Mushroom Soup.name=Бутылка грибного супа
+item.Peasant Soup.name=Бутылка крестьянского супа
+item.Okroshka.name=Бутылка окрошки
+item.Cheese Soup.name=Бутылка сырного супа
+item.Milk Soup.name=Бутылка молочного супа
+
+
+fluid.chickenbouillon=Куриный бульон
+fluid.meatbouillon=Мясной бульон
+fluid.fishbouillon=Рыбный бульон
+fluid.mushroombouillon=Грибной бульон
+fluid.bonebouillon=Костяной бульон
+
+fluid.chickensoup=Куриный суп
+fluid.potatosoup=Картофельный суп
+fluid.cabbagesoup=Щи
+fluid.borscht=Борщ
+fluid.fishsoup=Уха
+fluid.mushroomsoup=Грибной суп
+fluid.peasantsoup=Крестьянский суп
+fluid.okroshka=Окрошка
+fluid.cheesesoup=Сырный суп
+fluid.milksoup=Молочный суп

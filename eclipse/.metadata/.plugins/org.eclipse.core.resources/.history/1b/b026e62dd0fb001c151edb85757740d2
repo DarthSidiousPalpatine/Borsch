@@ -1,0 +1,34 @@
+package com.muurr.tfcplusborscht;
+
+import net.minecraft.init.Blocks;
+
+import com.dunk.tfc.CommonProxy;
+import com.dunk.tfc.Reference;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Borsch.MODID, version = Borsch.VERSION, dependencies = "required-after:terrafirmacraftplus;")
+public class Borsch
+{
+    public static final String MODID = "tfcplusborsch";
+    public static final String VERSION = "0.1";
+
+    @SidedProxy(clientSide = "com.muurr.tfcplusborsch.Proxy", serverSide = "com.muurr.tfcplusborsch.Proxy")
+	public static Proxy proxy;
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event)
+	{
+		proxy.registerFluids();
+		
+	}
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    	ItemSetup.setup();
+		proxy.setupFluids();
+    }
+}

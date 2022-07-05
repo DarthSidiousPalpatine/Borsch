@@ -1,0 +1,30 @@
+package com.muurr.tfcplusborsch;
+
+import com.dunk.tfc.Core.FluidBaseTFC;
+import com.dunk.tfc.Core.TFCTabs;
+import com.dunk.tfc.Items.ItemDrink;
+import com.dunk.tfc.api.TFCFluids;
+import com.dunk.tfc.api.TFCItems;
+import com.dunk.tfc.api.Enums.EnumFoodGroup;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+
+public class ItemSetup extends TFCItems{
+	public static Item clayBucketBorsch;
+	public static Item woodenBucketBorsch;
+	public static Item borsch;
+	public static final Fluid BORSCH = new FluidBaseTFC("borsch").setBaseColor(0xffffff);
+	
+	public static void setup()
+	{
+		GameRegistry.registerItem(woodenBucketBorsch, woodenBucketBorsch.getUnlocalizedName());
+		GameRegistry.registerItem(clayBucketBorsch, clayBucketBorsch.getUnlocalizedName());
+		GameRegistry.registerItem(borsch, borsch.getUnlocalizedName());
+		
+		borsch = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(0.584f).setWaterRestoreRatio(1f).setUnlocalizedName("Borsch").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ItemDrink) borsch);
+	}
+}

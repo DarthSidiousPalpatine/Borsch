@@ -1,0 +1,21 @@
+package com.muurr.tfcplusborscht;
+
+import net.minecraft.item.Item;
+
+public class ItemsList {
+	//Bouillons
+	public static Item chickenbouillon;
+	public static Item meatbouillon;
+	public static Item fishbouillon;
+	public static Item mushroombouillon;
+	public static Item bonebouillon;
+	
+	//Soups
+	public static Item chickensoup;
+	public static Item potatosoup;
+	public static Item borscht;
+	public static Item mushroomsoup;
+	public static Item fishsoup;
+	public static Item peasantsoup;
+	public static Item okroshka;
+}

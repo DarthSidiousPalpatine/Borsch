@@ -1,0 +1,12 @@
+package com.muurr.tfcplusborsch;
+
+import com.dunk.tfc.Core.TFCTabs;
+import com.dunk.tfc.Items.ItemDrink;
+import com.dunk.tfc.api.Enums.EnumFoodGroup;
+
+public class ItemSetup {
+	public static void setup()
+	{
+		borsch = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(0.584f).setWaterRestoreRatio(1f).setUnlocalizedName("Borsch").setCreativeTab(TFCTabs.TFC_FOODS);
+	}
+}

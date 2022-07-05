@@ -1,0 +1,14 @@
+item.Clay Bucket Borscht.name=Clay Bucket of Borscht
+item.Wooden Bucket Borscht.name=Wooden Bucket of Borscht
+item.Borscht.name=Bottle of Borscht
+fluid.borscht.name=Borscht
+
+item.Clay Bucket Kvass.name=Clay Bucket of Kvass
+item.Wooden Bucket Kvass.name=Wooden Bucket of Kvass
+item.Kvass.name=Bottle of Kvass
+fluid.kvass.name=Kvass
+
+item.Clay Bucket Chicken Soup.name=Clay Bucket of Chicken Soup
+item.Wooden Bucket Chicken Soup.name=Wooden Bucket of Chicken Soup
+item.Chicken Soup.name=Bottle of Chicken Soup
+fluid.chickensoup.name=Chicken Soup

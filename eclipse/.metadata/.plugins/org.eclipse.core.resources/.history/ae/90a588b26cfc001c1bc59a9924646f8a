@@ -1,0 +1,17 @@
+package com.muurr.tfcplusborscht;
+
+import com.dunk.tfc.CommonProxy;
+import com.dunk.tfc.Core.FluidBaseTFC;
+import com.dunk.tfc.api.TFCFluids;
+import com.dunk.tfc.api.TFCItems;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidContainerRegistry;
+import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fluids.FluidStack;
+
+public class Proxy {
+
+}

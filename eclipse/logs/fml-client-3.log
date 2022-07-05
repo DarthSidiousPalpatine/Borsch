@@ -1,0 +1,1134 @@
+[22:38:26] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[22:38:26] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[22:38:26] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_333, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_333
+[22:38:26] [main/DEBUG] [FML/]: Java classpath at launch is C:\Users\lenovo\Desktop\Modding\Borsch\bin;C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar;C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar;C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar;C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar;C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start
+[22:38:26] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre1.8.0_333\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_333/bin/server;C:/Program Files/Java/jre1.8.0_333/bin;C:/Program Files/Java/jre1.8.0_333/lib/amd64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\dotnet\;C:\Windows;c:\Windows\system32;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\dotnet\;D:\Git\cmd;D:\nodejs\;C:\Users\lenovo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;C:\Users\lenovo\.dotnet\tools;C:\Users\lenovo\.dotnet\tools;C:\Users\lenovo\Desktop\Modding;;.;C:/Users/lenovo/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.7.10
+[22:38:26] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:38:26] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[22:38:26] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[22:38:26] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[22:38:26] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[22:38:26] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[22:38:26] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[22:38:26] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[22:38:26] [main/INFO] [FML/]: Found a command line coremod : com.dunk.tfc.TFCASMLoadingPlugin
+[22:38:26] [main/DEBUG] [FML/]: Instantiating coremod class TFCASMLoadingPlugin
+[22:38:26] [main/WARN] [FML/]: The coremod com.dunk.tfc.TFCASMLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:38:26] [main/DEBUG] [FML/]: Enqueued coremod TFCASMLoadingPlugin
+[22:38:26] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\lenovo\Desktop\Modding\Borsch\eclipse\.
+[22:38:26] [main/DEBUG] [FML/]: Discovering coremods
+[22:38:26] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:38:26] [main/INFO] [GradleStart/]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[22:38:26] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:38:26] [main/INFO] [GradleStart/]: Injecting location in coremod com.dunk.tfc.TFCASMLoadingPlugin
+[22:38:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:38:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:38:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:38:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:26] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[22:38:26] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[22:38:27] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[22:38:27] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:38:27] [main/DEBUG] [FML/]: Injection complete
+[22:38:27] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[22:38:27] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[22:38:27] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[22:38:28] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[22:38:28] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[22:38:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:28] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[22:38:28] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[22:38:28] [main/DEBUG] [FML/]: Injection complete
+[22:38:28] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[22:38:28] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[22:38:28] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[22:38:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:38:28] [main/DEBUG] [FML/]: Injecting coremod TFCASMLoadingPlugin {com.dunk.tfc.TFCASMLoadingPlugin} class transformers
+[22:38:28] [main/TRACE] [FML/]: Registering transformer com.dunk.tfc.ASM.Transform.TF_EntityRenderer
+[22:38:28] [main/TRACE] [FML/]: Registering transformer com.dunk.tfc.ASM.Transform.TF_RenderGlobal
+[22:38:28] [main/TRACE] [FML/]: Registering transformer com.dunk.tfc.ASM.Transform.TF_EntityLeashKnot
+[22:38:28] [main/TRACE] [FML/]: Registering transformer com.dunk.tfc.ASM.Transform.TF_EntityPlayerMP
+[22:38:28] [main/TRACE] [FML/]: Registering transformer com.dunk.tfc.ASM.Transform.TF_EntityPlayer
+[22:38:28] [main/DEBUG] [FML/]: Injection complete
+[22:38:28] [main/DEBUG] [FML/]: Running coremod plugin for TFCASMLoadingPlugin {com.dunk.tfc.TFCASMLoadingPlugin}
+[22:38:28] [main/DEBUG] [FML/]: Running coremod plugin TFCASMLoadingPlugin
+[22:38:28] [main/DEBUG] [FML/]: Coremod plugin class TFCASMLoadingPlugin run successfully
+[22:38:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:38:28] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[22:38:28] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[22:38:28] [main/DEBUG] [FML/]: Loaded 40 rules from AccessTransformer mod jar file C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar!META-INF/tfc_at.cfg
+
+[22:38:28] [main/DEBUG] [FML/]: Validating minecraft
+[22:38:28] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[22:38:28] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:38:28] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\unpacked\conf\fields.csv
+[22:38:28] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\unpacked\conf\methods.csv
+[22:38:28] [main/INFO] [GradleStart/]: Remapping AccessTransformer rules...
+[22:38:28] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:38:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:38:28] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:38:29] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/player/EntityPlayer | Found 2 injections
+[22:38:29] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: net/minecraft/entity/player/EntityPlayer : {moveEntityWithHeading | (FF)V}
+[22:38:29] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: net/minecraft/entity/player/EntityPlayer : {getItemIcon | (Lnet/minecraft/item/ItemStack;I)Lnet/minecraft/util/IIcon;}
+[22:38:29] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/player/EntityPlayer Complete
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/player/EntityPlayerMP | Found 1 injections
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: net/minecraft/entity/player/EntityPlayerMP : {onUpdateEntity | ()V}
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/player/EntityPlayerMP Complete
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/EntityLeashKnot | Found 1 injections
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: net/minecraft/entity/EntityLeashKnot : {onValidSurface | ()Z}
+[22:38:30] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: net/minecraft/entity/EntityLeashKnot Complete
+[22:38:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,024s
+[22:38:31] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 05.07.22 22:38
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1543183200 bytes (1471 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 457.49' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+[22:38:31] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[22:38:31] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[22:38:32] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[22:38:32] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[22:38:32] [Client thread/DEBUG] [FML/]: File C:\Users\lenovo\Desktop\Modding\Borsch\eclipse\config\injectedDependencies.json not found. No dependencies injected
+[22:38:32] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.dunk.tfc.TerraFirmaCraftCore]
+[22:38:32] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\lenovo\Desktop\Modding\Borsch\bin, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start, examining for mod candidates
+[22:38:32] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[22:38:32] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[22:38:32] [Client thread/INFO] [FML/]: Searching C:\Users\lenovo\Desktop\Modding\Borsch\eclipse\mods for mods
+[22:38:32] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[22:38:32] [Client thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets.terrafirmacraftplus
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets.terrafirmacraftplus.lang
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets.terrafirmacraftplus.textures
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets.terrafirmacraftplus.textures.items
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package assets.terrafirmacraftplus.textures.items.tools
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package com
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package com.muurr
+[22:38:32] [Client thread/TRACE] [FML/]: Recursing into package com.muurr.tfcplusborscht
+[22:38:32] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.muurr.tfcplusborscht.Borscht) - loading
+[22:38:32] [Client thread/TRACE] [tfcplusborscht/]: Parsed dependency info : [terrafirmacraftplus] [terrafirmacraftplus] []
+[22:38:32] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar for potential mods
+[22:38:32] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file jsr305-1.3.9.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container jsr305-1.3.9.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[22:38:33] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[22:38:33] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[22:38:35] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[22:38:35] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[22:38:36] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[22:38:36] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar for potential mods
+[22:38:37] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar
+[22:38:37] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.dunk.tfc.TerraFirmaCraft) - loading
+[22:38:37] [Client thread/TRACE] [terrafirmacraftplus/]: Using mcmod dependency info : [] [Forge@[10.13.4.1448,)] []
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining file [1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar for potential mods
+[22:38:37] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar
+[22:38:37] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[22:38:37] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[22:38:37] [Client thread/TRACE] [FML/]: Recursing into package net
+[22:38:37] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[22:38:37] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[22:38:37] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[22:38:37] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[22:38:37] [Client thread/TRACE] [FML/]: Received a system property request ''
+[22:38:37] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[22:38:37] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[22:38:37] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[22:38:37] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[22:38:37] [Client thread/DEBUG] [tfcplusborscht/]: Enabling mod tfcplusborscht
+[22:38:37] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/terrafirmacraftplus/lang/en_US.lang into language system
+[22:38:37] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang ru_RU at assets/terrafirmacraftplus/lang/ru_RU.lang into language system
+[22:38:37] [Client thread/DEBUG] [terrafirmacraftplus/]: Enabling mod terrafirmacraftplus
+[22:38:37] [Client thread/DEBUG] [FML/]: Found translations in [1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar [da_DK, de_DE, en_CA, en_GB, en_US, es_AR, es_ES, es_MX, es_UY, es_VE, fi_FI, fr_CA, fr_FR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, pt_BR, pt_PT, ro_RO, ru_RU, tr_TR, zh_CN, zh_HK, zh_TW]
+[22:38:37] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[22:38:37] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[22:38:37] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[22:38:37] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[22:38:37] [Client thread/DEBUG] [FML/]: Mod sorting data
+[22:38:37] [Client thread/DEBUG] [FML/]: 	terrafirmacraftplus(TerraFirmaCraft+:0.89.1): [1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar ()
+[22:38:37] [Client thread/DEBUG] [FML/]: 	tfcplusborscht(Borscht:0.1): bin (required-after:terrafirmacraftplus;)
+[22:38:37] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[22:38:37] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[22:38:37] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,008s
+[22:38:37] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[22:38:37] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[22:38:37] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[22:38:37] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[22:38:37] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, tfcplusborscht, terrafirmacraftplus] at CLIENT
+[22:38:37] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, tfcplusborscht, terrafirmacraftplus] at SERVER
+[22:38:38] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,361s
+[22:38:38] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[22:38:38] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[22:38:38] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[22:38:38] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[22:38:38] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,023s
+[22:38:38] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLConstructionEvent to mod tfc_coremod
+[22:38:38] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLConstructionEvent to mod tfc_coremod
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Construction - TFC[coremod] took 0,001s
+[22:38:38] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLConstructionEvent to mod terrafirmacraftplus
+[22:38:38] [Client thread/TRACE] [FML/terrafirmacraftplus]: Mod terrafirmacraftplus is using network checker : Accepting version 0.89.1
+[22:38:38] [Client thread/TRACE] [FML/terrafirmacraftplus]: Testing mod terrafirmacraftplus to verify it accepts its own version in a remote connection
+[22:38:38] [Client thread/TRACE] [FML/terrafirmacraftplus]: The mod terrafirmacraftplus accepts its own version (0.89.1)
+[22:38:38] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Attempting to inject @SidedProxy classes into terrafirmacraftplus
+[22:38:38] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Attempting to Transform: net/minecraft/client/renderer/EntityRenderer | Found 1 injections
+[22:38:38] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Inserted: net/minecraft/client/renderer/EntityRenderer : {updateRenderer | ()V}
+[22:38:38] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Attempting to Transform: net/minecraft/client/renderer/EntityRenderer Complete
+[22:38:38] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLConstructionEvent to mod terrafirmacraftplus
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Construction - TerraFirmaCraft+ took 0,332s
+[22:38:38] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLConstructionEvent to mod tfcplusborscht
+[22:38:38] [Client thread/TRACE] [FML/tfcplusborscht]: Mod tfcplusborscht is using network checker : Accepting version 0.1
+[22:38:38] [Client thread/TRACE] [FML/tfcplusborscht]: Testing mod tfcplusborscht to verify it accepts its own version in a remote connection
+[22:38:38] [Client thread/TRACE] [FML/tfcplusborscht]: The mod tfcplusborscht accepts its own version (0.1)
+[22:38:38] [Client thread/DEBUG] [FML/tfcplusborscht]: Attempting to inject @SidedProxy classes into tfcplusborscht
+[22:38:38] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLConstructionEvent to mod tfcplusborscht
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Borscht took 0,008s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0,734s
+[22:38:38] [Client thread/DEBUG] [FML/]: Mod signature data
+[22:38:38] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[22:38:38] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[22:38:38] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[22:38:38] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[22:38:38] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[22:38:38] [Client thread/DEBUG] [FML/]: 		tfc_coremod	(TFC[coremod]	0.89.1)	minecraft.jar
+[22:38:38] [Client thread/DEBUG] [FML/]: 		terrafirmacraftplus	(TerraFirmaCraft+	0.89.1)	[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar
+[22:38:38] [Client thread/DEBUG] [FML/]: 		tfcplusborscht	(Borscht	0.1)	bin
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,005s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,006s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,007s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Borscht took 0,005s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:TerraFirmaCraft+ took 0,010s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0,037s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0,038s
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0,070s
+[22:38:38] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[22:38:38] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[22:38:38] [Client thread/DEBUG] [Borscht/]: Mod Borscht is missing a pack.mcmeta file, substituting a dummy one
+[22:38:38] [Client thread/DEBUG] [TerraFirmaCraft+/]: Mod TerraFirmaCraft+ is missing a pack.mcmeta file, substituting a dummy one
+[22:38:38] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[22:38:38] [Client thread/INFO] [FML/]: Found 337 ObjectHolder annotations
+[22:38:38] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[22:38:38] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[22:38:38] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[22:38:38] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,002s
+[22:38:38] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[22:38:38] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,002s
+[22:38:38] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[22:38:38] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[22:38:38] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,037s
+[22:38:38] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPreInitializationEvent to mod tfc_coremod
+[22:38:38] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPreInitializationEvent to mod tfc_coremod
+[22:38:38] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - TFC[coremod] took 0,000s
+[22:38:38] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLPreInitializationEvent to mod terrafirmacraftplus
+[22:38:38] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Loading TFCConfig
+[22:38:38] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Loading Blocks
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[22:38:39] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	... 4 more
+[22:38:39] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Attempting to Transform: net/minecraft/client/renderer/RenderGlobal | Found 1 injections
+[22:38:39] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Inserted: net/minecraft/client/renderer/RenderGlobal : {loadRenderers | ()V}
+[22:38:39] [Client thread/INFO] [TerraFirmaCraft ASM/terrafirmacraftplus]: Attempting to Transform: net/minecraft/client/renderer/RenderGlobal Complete
+[22:38:39] [Client thread/TRACE] [FML/terrafirmacraftplus]: Automatically registered mod terrafirmacraftplus entity javelin as terrafirmacraftplus.javelin
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySquidTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityCowTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityBison
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityBuffalo
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityWolfTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityBear
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityChickenTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityPigTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityDeer
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityCustomMinecart
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySkeletonTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityZombieTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySpiderTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySlimeTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySilverfishTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityGhastTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityCaveSpiderTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityBlazeTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityEndermanTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityPigZombieTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityIronGolemTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityCreeperTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityStand
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityPheasantTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityFishTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityFallingBlockTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityBarrel
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityCorpse
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityCoracle
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityWarthogTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityPeccaryTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntityBighornSheepTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.Mobs.EntitySharkTFC
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntityPlough
+[22:38:39] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Skipping automatic mod terrafirmacraftplus entity registration for already registered class com.dunk.tfc.Entities.EntitySlingStone
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Loading Items
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Registering Items
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Registering Food
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Registering Armor
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: All Items Registered
+[22:38:40] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Finished Loading Items
+[22:38:40] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLPreInitializationEvent to mod terrafirmacraftplus
+[22:38:40] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - TerraFirmaCraft+ took 1,730s
+[22:38:40] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLPreInitializationEvent to mod tfcplusborscht
+[22:38:40] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLPreInitializationEvent to mod tfcplusborscht
+[22:38:40] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Borscht took 0,013s
+[22:38:40] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1,784s
+[22:38:40] [Client thread/INFO] [FML/]: Applying holder lookups
+[22:38:40] [Client thread/INFO] [FML/]: Holder lookups applied
+[22:38:40] [Client thread/INFO] [FML/]: Injecting itemstacks
+[22:38:40] [Client thread/INFO] [FML/]: Itemstack injection complete
+[22:38:40] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0,000s
+[22:38:40] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:40] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:38:40] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:38:40] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:38:40] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:38:41] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 1,484s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,002s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,001s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,005s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,007s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0,003s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0,000s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0,010s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0,001s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0,035s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0,024s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0,000s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,001s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,003s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0,012s
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Wolf Fur Scrap.png
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Bear Fur Scrap.png
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Fur Scrap.png
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Wolf Fur Scrap.png
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Bear Fur Scrap.png
+[22:38:42] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Fur Scrap.png
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,000s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,001s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0,226s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0,002s
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 0,313s
+[22:38:42] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[22:38:42] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[22:38:42] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[22:38:42] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,000s
+[22:38:42] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[22:38:42] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[22:38:42] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLInitializationEvent to mod tfc_coremod
+[22:38:42] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLInitializationEvent to mod tfc_coremod
+[22:38:42] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - TFC[coremod] took 0,000s
+[22:38:42] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLInitializationEvent to mod terrafirmacraftplus
+[22:38:42] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,005s
+[22:38:42] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,005s
+[22:38:42] [Client thread/DEBUG] [FML/terrafirmacraftplus]: Bar Finished: Loading Resource - EntityRendererTFC took 0,000s
+[22:38:42] [Client thread/INFO] [STDOUT/terrafirmacraftplus]: [com.dunk.tfc.TileEntities.TEBarrel:registerRecipes:1554]: registering recipes
+[22:38:42] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Loading TFCCrafting
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLInitializationEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - TerraFirmaCraft+ took 9,308s
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLInitializationEvent to mod tfcplusborscht
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLInitializationEvent to mod tfcplusborscht
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Borscht took 0,001s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 9,310s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod tfc_coremod
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event IMCEvent to mod tfc_coremod
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event IMCEvent to mod tfc_coremod
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TFC[coremod] took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod terrafirmacraftplus
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event IMCEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event IMCEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TerraFirmaCraft+ took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod tfcplusborscht
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event IMCEvent to mod tfcplusborscht
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event IMCEvent to mod tfcplusborscht
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Borscht took 0,000s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,001s
+[22:38:51] [Client thread/INFO] [FML/]: Injecting itemstacks
+[22:38:51] [Client thread/INFO] [FML/]: Itemstack injection complete
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,006s
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPostInitializationEvent to mod tfc_coremod
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPostInitializationEvent to mod tfc_coremod
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - TFC[coremod] took 0,000s
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLPostInitializationEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/INFO] [TerraFirmaCraft+/terrafirmacraftplus]: Loading TFCOres
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLPostInitializationEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - TerraFirmaCraft+ took 0,004s
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLPostInitializationEvent to mod tfcplusborscht
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLPostInitializationEvent to mod tfcplusborscht
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Borscht took 0,000s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,010s
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[22:38:51] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[22:38:51] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[22:38:51] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[22:38:51] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[22:38:51] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[22:38:51] [Client thread/INFO] [FML/Forge]:   Unknown recipe class! com.dunk.tfc.api.Crafting.ShapelessRecipesTFC Modder please refer to net.minecraftforge.oredict.RecipeSorter
+[22:38:51] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,012s
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLLoadCompleteEvent to mod tfc_coremod
+[22:38:51] [Client thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLLoadCompleteEvent to mod tfc_coremod
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - TFC[coremod] took 0,001s
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLLoadCompleteEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLLoadCompleteEvent to mod terrafirmacraftplus
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - TerraFirmaCraft+ took 0,000s
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLLoadCompleteEvent to mod tfcplusborscht
+[22:38:51] [Client thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLLoadCompleteEvent to mod tfcplusborscht
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Borscht took 0,000s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,013s
+[22:38:51] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[22:38:51] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[22:38:51] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[22:38:51] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,004s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,004s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,005s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Borscht took 0,002s
+[22:38:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:TerraFirmaCraft+ took 0,009s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0,427s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0,366s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,093s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,120s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0,919s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0,003s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_2 took 0,000s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0,000s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0,003s
+[22:38:52] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Wolf Fur Scrap.png
+[22:38:52] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Bear Fur Scrap.png
+[22:38:52] [Client thread/INFO] [STDOUT/]: [com.dunk.tfc.Core.TFC_Textures:loadClothingPattern:93]: Missing texture: terrafirmacraftplus:textures/items/armor/clothing/Flat Fur Scrap.png
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0,247s
+[22:38:52] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0,018s
+[22:38:53] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,092s
+[22:38:53] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,097s
+[22:38:53] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0,408s
+[22:38:53] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 1,333s
+[22:38:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:38:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:38:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:38:53] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:38:53] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:38:53] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:38:53] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:38:54] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 2,873s
+[22:38:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 2,873s
+[22:38:54] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 2,896s
+[22:38:54] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[22:38:54] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[22:38:54] [Client thread/DEBUG] [Borscht/]: Mod Borscht is missing a pack.mcmeta file, substituting a dummy one
+[22:38:54] [Client thread/DEBUG] [TerraFirmaCraft+/]: Mod TerraFirmaCraft+ is missing a pack.mcmeta file, substituting a dummy one
+[22:38:54] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 22,463s
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: The following texture errors were found.
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN minecraft
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain minecraft is missing 20 textures
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain minecraft has 3 locations:
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod FML resources at C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod Forge resources at C:\Users\lenovo\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain minecraft are:
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_541_WoodAxle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_776_PewterCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_775_BrassCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_767_SterlingSilverCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_539_WaterWheel.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_778_SilverCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_764_Candle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_766_PewterCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_769_RoseGoldCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_544_WoodGears.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_774_CandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_779_RoseGoldCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_768_SilverCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_543_WoodAxleBearing.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_777_SterlingSilverCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_770_GoldCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_780_GoldCandleOff.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_765_BrassCandle.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_542_WoodAxleCouple.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_540_WoodCrankshaft.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain minecraft
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN terrafirmacraftplus
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain terrafirmacraftplus is missing 90 textures
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain terrafirmacraftplus has 2 locations:
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod tfcplusborscht resources at C:\Users\lenovo\Desktop\Modding\Borsch\bin
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod terrafirmacraftplus resources at C:\Users\lenovo\Desktop\Modding\Borsch\libs\[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain terrafirmacraftplus are:
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Mahoe.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/trees/stacked/Stacked null Log.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/primitiveSling_2.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Liquid Silica.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Yew.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/trees/stacked/Stacked null Log Top.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/leatherSling_2.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/devices/Wild Hive Top.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Glass.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/food/Coconut Full.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Coconut Leaves Opaque.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/AncientPlough.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/primitiveSling_3.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Oak.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Sequoia.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/trees/stacked/Stacked null Log Side.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/leatherSling_3.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Staghorn Coral_7.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/WoodGear.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/food/Coconut Empty.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Liquid Lime.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Pine.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/armor/clothing/Short Shirt Sleeves Bear.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Acacia.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Willow.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Liquid Soda.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Bituminous Coal Small Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Fruitwood.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Mahogany.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Maple.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Fever.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Palm.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Poor Lignite Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Date Leaves.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/White Elm.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Birch.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Chestnut.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Rich Lignite Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Fig Leaves.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/12.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Gingko.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/devices/Wild Hive Front.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Brain Coral_7.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/White Cedar.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Teak.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Mangrove.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Sycamore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/24.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/clothSling_2.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Poor Bituminous Coal Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Bamboo.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Limba.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/trees/Palm Leaves.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Lignite Small Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Tube Coral Top_7.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Laurel.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Aspen.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Fig Leaves Opaque.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Douglas Fir.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Hickory.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Brass Clock Gear.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Coconut Leaves.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/table_coral_plate_7.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Ghaf.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Papaya Leaves Opaque.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Date Leaves Opaque.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/armor/clothing/Shorts Piece Bear.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ore/Rich Bituminous Coal Ore.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Mud Brick.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Baobab.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/clothSling_4.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/primitiveSling_4.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/table_coral_plate_6.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Ebony.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/leatherSling_4.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Tube Coral Side_7.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/trees/Palm Leaves Fancy.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/armor/clothing/Shorts Piece Wolf.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/coconutShell.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/wood/fruit trees/Papaya Leaves.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/tools/clothSling_3.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/armor/clothing/Short Shirt Sleeves Wolf.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Tube Coral Side_6.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/table_coral_plate_5.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Joshua.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/coral/Tube Coral Top_6.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Silica.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Spruce.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/devices/Wild Hive Side.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/Kapok.png
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain terrafirmacraftplus
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[22:38:54] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[22:39:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[22:39:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[22:39:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[22:39:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[22:39:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[22:39:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[22:39:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[22:39:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[22:39:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[22:39:18] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerAboutToStartEvent to mod tfc_coremod
+[22:39:18] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerAboutToStartEvent to mod tfc_coremod
+[22:39:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TFC[coremod] took 0,000s
+[22:39:18] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLServerAboutToStartEvent to mod terrafirmacraftplus
+[22:39:18] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLServerAboutToStartEvent to mod terrafirmacraftplus
+[22:39:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TerraFirmaCraft+ took 0,000s
+[22:39:18] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLServerAboutToStartEvent to mod tfcplusborscht
+[22:39:19] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLServerAboutToStartEvent to mod tfcplusborscht
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Borscht took 0,001s
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,002s
+[22:39:19] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[22:39:19] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[22:39:19] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[22:39:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[22:39:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[22:39:19] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[22:39:19] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[22:39:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[22:39:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,002s
+[22:39:19] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
+[22:39:19] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0,000s
+[22:39:19] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLModIdMappingEvent to mod terrafirmacraftplus
+[22:39:19] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLModIdMappingEvent to mod terrafirmacraftplus
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft+ took 0,000s
+[22:39:19] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLModIdMappingEvent to mod tfcplusborscht
+[22:39:19] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLModIdMappingEvent to mod tfcplusborscht
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Borscht took 0,000s
+[22:39:19] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,003s
+[22:39:19] [Server thread/INFO] [FML/]: Applying holder lookups
+[22:39:19] [Server thread/INFO] [FML/]: Holder lookups applied
+[22:39:19] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewhiskey has been selected as the default fluid for ryewhiskey
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milkcurdled has been selected as the default fluid for milkcurdled
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figbrandy has been selected as the default fluid for figbrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:brine has been selected as the default fluid for brine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:oliveoil has been selected as the default fluid for oliveoil
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:shochu has been selected as the default fluid for shochu
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricewater has been selected as the default fluid for ricewater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachbrandy has been selected as the default fluid for peachbrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honeybrandy has been selected as the default fluid for honeybrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:pitch has been selected as the default fluid for pitch
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangejuice has been selected as the default fluid for orangejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milk has been selected as the default fluid for milk
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:borscht has been selected as the default fluid for borscht
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachjuice has been selected as the default fluid for peachjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:mushroombouillon has been selected as the default fluid for mushroombouillon
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangedye has been selected as the default fluid for orangedye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:chickensoup has been selected as the default fluid for chickensoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumbrandy has been selected as the default fluid for plumbrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:cheesesoup has been selected as the default fluid for cheesesoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:agavejuice has been selected as the default fluid for agavejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:limewater has been selected as the default fluid for limewater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:blackdye has been selected as the default fluid for blackdye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywater has been selected as the default fluid for barleywater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berryjuice has been selected as the default fluid for berryjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:grapejuice has been selected as the default fluid for grapejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:whitedye has been selected as the default fluid for whitedye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:fruitbrandy has been selected as the default fluid for fruitbrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:okroshka has been selected as the default fluid for okroshka
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:saltwater has been selected as the default fluid for saltwater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangebrandy has been selected as the default fluid for orangebrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:potatosoup has been selected as the default fluid for potatosoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonjuice has been selected as the default fluid for lemonjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:vinegar has been selected as the default fluid for vinegar
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatwine has been selected as the default fluid for wheatwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricewhiskey has been selected as the default fluid for ricewhiskey
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:fruitwine has been selected as the default fluid for fruitwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornbeer has been selected as the default fluid for cornbeer
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:freshwater has been selected as the default fluid for freshwater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:coconutjuice has been selected as the default fluid for coconutjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milkvinegar has been selected as the default fluid for milkvinegar
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cider has been selected as the default fluid for cider
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:chickenbouillon has been selected as the default fluid for chickenbouillon
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:yellowdye has been selected as the default fluid for yellowdye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:applejack has been selected as the default fluid for applejack
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:mead has been selected as the default fluid for mead
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:rum has been selected as the default fluid for rum
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:whiskey has been selected as the default fluid for whiskey
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwater has been selected as the default fluid for cornwater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumjuice has been selected as the default fluid for plumjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:tequila has been selected as the default fluid for tequila
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwine has been selected as the default fluid for cornwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatbeer has been selected as the default fluid for wheatbeer
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cherryjuice has been selected as the default fluid for cherryjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:fishbouillon has been selected as the default fluid for fishbouillon
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wax has been selected as the default fluid for wax
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangewine has been selected as the default fluid for orangewine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumwine has been selected as the default fluid for plumwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:mushroomsoup has been selected as the default fluid for mushroomsoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywhiskey has been selected as the default fluid for barleywhiskey
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honey has been selected as the default fluid for honey
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:cabbagesoup has been selected as the default fluid for cabbagesoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywine has been selected as the default fluid for barleywine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:fishsoup has been selected as the default fluid for fishsoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datewine has been selected as the default fluid for datewine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:brandy has been selected as the default fluid for brandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:reddye has been selected as the default fluid for reddye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonbrandy has been selected as the default fluid for lemonbrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:tannin has been selected as the default fluid for tannin
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berrywine has been selected as the default fluid for berrywine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honeywater has been selected as the default fluid for honeywater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatwater has been selected as the default fluid for wheatwater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datejuice has been selected as the default fluid for datejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ammoniumchloride has been selected as the default fluid for ammoniumchloride
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:applejuice has been selected as the default fluid for applejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:purpledye has been selected as the default fluid for purpledye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryebeer has been selected as the default fluid for ryebeer
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:potatowine has been selected as the default fluid for potatowine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachwine has been selected as the default fluid for peachwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:milksoup has been selected as the default fluid for milksoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:potatowater has been selected as the default fluid for potatowater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonwine has been selected as the default fluid for lemonwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayawine has been selected as the default fluid for papayawine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewater has been selected as the default fluid for ryewater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:agavewine has been selected as the default fluid for agavewine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:vodka has been selected as the default fluid for vodka
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wine has been selected as the default fluid for wine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:bluedye has been selected as the default fluid for bluedye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lavatfc has been selected as the default fluid for lavatfc
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewine has been selected as the default fluid for ryewine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayajuice has been selected as the default fluid for papayajuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figwine has been selected as the default fluid for figwine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayabrandy has been selected as the default fluid for papayabrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:greendye has been selected as the default fluid for greendye
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berrybrandy has been selected as the default fluid for berrybrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:canewine has been selected as the default fluid for canewine
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figjuice has been selected as the default fluid for figjuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:meatbouillon has been selected as the default fluid for meatbouillon
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:bonebouillon has been selected as the default fluid for bonebouillon
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricebeer has been selected as the default fluid for ricebeer
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:canejuice has been selected as the default fluid for canejuice
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:hotwater has been selected as the default fluid for hotwater
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datebrandy has been selected as the default fluid for datebrandy
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid tfcplusborscht:peasantsoup has been selected as the default fluid for peasantsoup
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:beer has been selected as the default fluid for beer
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:sake has been selected as the default fluid for sake
+[22:39:19] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwhiskey has been selected as the default fluid for cornwhiskey
+[22:39:19] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@117514)
+[22:39:19] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@117514)
+[22:39:19] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@117514)
+[22:39:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[22:39:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[22:39:20] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[22:39:20] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[22:39:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[22:39:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,002s
+[22:39:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartingEvent to mod tfc_coremod
+[22:39:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartingEvent to mod tfc_coremod
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TFC[coremod] took 0,000s
+[22:39:20] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLServerStartingEvent to mod terrafirmacraftplus
+[22:39:20] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLServerStartingEvent to mod terrafirmacraftplus
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TerraFirmaCraft+ took 0,029s
+[22:39:20] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLServerStartingEvent to mod tfcplusborscht
+[22:39:20] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLServerStartingEvent to mod tfcplusborscht
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Borscht took 0,000s
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,032s
+[22:39:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[22:39:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[22:39:20] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[22:39:20] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[22:39:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[22:39:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[22:39:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartedEvent to mod tfc_coremod
+[22:39:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartedEvent to mod tfc_coremod
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TFC[coremod] took 0,000s
+[22:39:20] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sending event FMLServerStartedEvent to mod terrafirmacraftplus
+[22:39:20] [Server thread/TRACE] [terrafirmacraftplus/terrafirmacraftplus]: Sent event FMLServerStartedEvent to mod terrafirmacraftplus
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TerraFirmaCraft+ took 0,000s
+[22:39:20] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sending event FMLServerStartedEvent to mod tfcplusborscht
+[22:39:20] [Server thread/TRACE] [tfcplusborscht/tfcplusborscht]: Sent event FMLServerStartedEvent to mod tfcplusborscht
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Borscht took 0,000s
+[22:39:20] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,001s
+[22:39:21] [Netty Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[22:39:21] [Netty Client IO #0/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[22:39:21] [Netty Client IO #0/INFO] [FML/]: Server protocol version 2
+[22:39:21] [Netty Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[22:39:21] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:39:21] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[22:39:21] [Netty IO #1/TRACE] [FML/]: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[22:39:21] [Netty IO #1/INFO] [FML/]: Client attempting to join with 6 mods : tfcplusborscht@0.1,FML@7.10.99.99,tfc_coremod@0.89.1,Forge@10.13.4.1614,mcp@9.05,terrafirmacraftplus@0.89.1
+[22:39:21] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:39:21] [Netty Client IO #0/TRACE] [FML/]: $ModList:6 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[22:39:21] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[22:39:21] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:39:21] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[22:39:21] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[22:39:21] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[22:39:21] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:39:21] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milkcurdled has been selected as the default fluid for milkcurdled
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewhiskey has been selected as the default fluid for ryewhiskey
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figbrandy has been selected as the default fluid for figbrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:shochu has been selected as the default fluid for shochu
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:oliveoil has been selected as the default fluid for oliveoil
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:brine has been selected as the default fluid for brine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricewater has been selected as the default fluid for ricewater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachbrandy has been selected as the default fluid for peachbrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honeybrandy has been selected as the default fluid for honeybrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:pitch has been selected as the default fluid for pitch
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milk has been selected as the default fluid for milk
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangejuice has been selected as the default fluid for orangejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:borscht has been selected as the default fluid for borscht
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachjuice has been selected as the default fluid for peachjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:mushroombouillon has been selected as the default fluid for mushroombouillon
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangedye has been selected as the default fluid for orangedye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:chickensoup has been selected as the default fluid for chickensoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumbrandy has been selected as the default fluid for plumbrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:cheesesoup has been selected as the default fluid for cheesesoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:agavejuice has been selected as the default fluid for agavejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:limewater has been selected as the default fluid for limewater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:blackdye has been selected as the default fluid for blackdye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywater has been selected as the default fluid for barleywater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berryjuice has been selected as the default fluid for berryjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:whitedye has been selected as the default fluid for whitedye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:grapejuice has been selected as the default fluid for grapejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:fruitbrandy has been selected as the default fluid for fruitbrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:okroshka has been selected as the default fluid for okroshka
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:saltwater has been selected as the default fluid for saltwater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangebrandy has been selected as the default fluid for orangebrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:potatosoup has been selected as the default fluid for potatosoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonjuice has been selected as the default fluid for lemonjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:vinegar has been selected as the default fluid for vinegar
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatwine has been selected as the default fluid for wheatwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricewhiskey has been selected as the default fluid for ricewhiskey
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornbeer has been selected as the default fluid for cornbeer
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:freshwater has been selected as the default fluid for freshwater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:fruitwine has been selected as the default fluid for fruitwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:coconutjuice has been selected as the default fluid for coconutjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:milkvinegar has been selected as the default fluid for milkvinegar
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cider has been selected as the default fluid for cider
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:chickenbouillon has been selected as the default fluid for chickenbouillon
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:yellowdye has been selected as the default fluid for yellowdye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:applejack has been selected as the default fluid for applejack
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:mead has been selected as the default fluid for mead
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:rum has been selected as the default fluid for rum
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:whiskey has been selected as the default fluid for whiskey
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwater has been selected as the default fluid for cornwater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:tequila has been selected as the default fluid for tequila
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumjuice has been selected as the default fluid for plumjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwine has been selected as the default fluid for cornwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatbeer has been selected as the default fluid for wheatbeer
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cherryjuice has been selected as the default fluid for cherryjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:fishbouillon has been selected as the default fluid for fishbouillon
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wax has been selected as the default fluid for wax
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:orangewine has been selected as the default fluid for orangewine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:mushroomsoup has been selected as the default fluid for mushroomsoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:plumwine has been selected as the default fluid for plumwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywhiskey has been selected as the default fluid for barleywhiskey
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honey has been selected as the default fluid for honey
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:cabbagesoup has been selected as the default fluid for cabbagesoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:barleywine has been selected as the default fluid for barleywine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:fishsoup has been selected as the default fluid for fishsoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datewine has been selected as the default fluid for datewine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:brandy has been selected as the default fluid for brandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:reddye has been selected as the default fluid for reddye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonbrandy has been selected as the default fluid for lemonbrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:tannin has been selected as the default fluid for tannin
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berrywine has been selected as the default fluid for berrywine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:honeywater has been selected as the default fluid for honeywater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wheatwater has been selected as the default fluid for wheatwater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datejuice has been selected as the default fluid for datejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ammoniumchloride has been selected as the default fluid for ammoniumchloride
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:potatowine has been selected as the default fluid for potatowine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryebeer has been selected as the default fluid for ryebeer
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:purpledye has been selected as the default fluid for purpledye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:applejuice has been selected as the default fluid for applejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:peachwine has been selected as the default fluid for peachwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:milksoup has been selected as the default fluid for milksoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:potatowater has been selected as the default fluid for potatowater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lemonwine has been selected as the default fluid for lemonwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayawine has been selected as the default fluid for papayawine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewater has been selected as the default fluid for ryewater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:agavewine has been selected as the default fluid for agavewine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:vodka has been selected as the default fluid for vodka
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:wine has been selected as the default fluid for wine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:lavatfc has been selected as the default fluid for lavatfc
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:bluedye has been selected as the default fluid for bluedye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ryewine has been selected as the default fluid for ryewine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figwine has been selected as the default fluid for figwine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayajuice has been selected as the default fluid for papayajuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:papayabrandy has been selected as the default fluid for papayabrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:greendye has been selected as the default fluid for greendye
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:canewine has been selected as the default fluid for canewine
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:berrybrandy has been selected as the default fluid for berrybrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:figjuice has been selected as the default fluid for figjuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:meatbouillon has been selected as the default fluid for meatbouillon
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:bonebouillon has been selected as the default fluid for bonebouillon
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:ricebeer has been selected as the default fluid for ricebeer
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:hotwater has been selected as the default fluid for hotwater
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:canejuice has been selected as the default fluid for canejuice
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:datebrandy has been selected as the default fluid for datebrandy
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid tfcplusborscht:peasantsoup has been selected as the default fluid for peasantsoup
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:sake has been selected as the default fluid for sake
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:beer has been selected as the default fluid for beer
+[22:39:21] [Client thread/DEBUG] [FML/]: The fluid terrafirmacraftplus:cornwhiskey has been selected as the default fluid for cornwhiskey
+[22:39:21] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[22:39:21] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[22:39:21] [Server thread/INFO] [TerraFirmaCraft+/]: Loading TFCConfig
+[22:39:21] [Server thread/INFO] [TerraFirmaCraft+/]: Loading TFCOres
+[22:39:21] [Server thread/INFO] [TerraFirmaCraft+/]: Reloading TFCCrafting
+[22:39:25] [Client thread/INFO] [TerraFirmaCraft+/]: Applying server TFCCrafting settings
+[22:40:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:40:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:41:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:42:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:43:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:43:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[22:44:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World

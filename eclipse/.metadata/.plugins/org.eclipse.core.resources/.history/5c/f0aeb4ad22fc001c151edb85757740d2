@@ -1,0 +1,19 @@
+item.Clay Bucket Borscht.name=Керамическое ведро с борщом
+item.Wooden Bucket Borscht.name=Деревянное ведро с борщом
+item.Borscht.name=Бутылка борща
+fluid.borscht=Борщ
+
+item.Clay Bucket Kvass.name=Керамическое ведро с квассом
+item.Wooden Bucket Kvass.name=Деревянное ведро с квассом
+item.Kvass.name=Бутылка квасса
+fluid.kvass=Квасс
+
+item.Clay Bucket Chicken Soup.name=Керамическое ведро с куриным супом
+item.Wooden Bucket Chicken Soup.name=Деревянное ведро с куриным супом
+item.Chicken Soup.name=Бутылка куриного супа
+fluid.chickensoup=Куриный суп
+
+item.Clay Bucket Okroshka.name=Керамическое ведро с окрошкой
+item.Wooden Bucket Okroshka.name=Деревянное ведро с окрошкой
+item.Okroshka.name=Бутылка окрошки
+fluid.okroshka=Окрошка

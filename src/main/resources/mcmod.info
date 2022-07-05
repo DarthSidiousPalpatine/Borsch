@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tfcplusborscht",
+  "name": "Borscht",
+  "description": "Some soups for tfc+.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Muurr"],
+  "credits": "TFC+ discord guys and Dunk and thx for my parent they gave me my life, thx for teachers in school they teached me origins of the world, thx psychologist in university she healed my mental health enough so i made this addon. Finally.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

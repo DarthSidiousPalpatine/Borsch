@@ -1,0 +1,51 @@
+package com.muurr.tfcplusborscht;
+
+import com.dunk.tfc.Core.FluidBaseTFC;
+import com.dunk.tfc.Core.TFCTabs;
+import com.dunk.tfc.Food.ItemFoodTFC;
+import com.dunk.tfc.Items.ItemDrink;
+import com.dunk.tfc.Items.Tools.ItemCustomBucketMilk;
+import com.dunk.tfc.api.TFCFluids;
+import com.dunk.tfc.api.TFCItems;
+import com.dunk.tfc.api.Crafting.BarrelFireRecipe;
+import com.dunk.tfc.api.Crafting.BarrelManager;
+import com.dunk.tfc.api.Enums.EnumFoodGroup;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fluids.FluidStack;
+
+public class ItemSetup extends TFCItems{
+	public static Item clayBucketBorscht;
+	public static Item woodenBucketBorscht;
+	public static Item borscht;
+	
+	public static Item clayBucketKvass;
+	public static Item woodenBucketKvass;
+	public static Item kvass;
+	
+	public static void setup()
+	{
+		woodenBucketBorscht = new ItemCustomBucketMilk().setUnlocalizedName("Wooden Bucket Borscht").setContainerItem(woodenBucketEmpty).setCreativeTab(TFCTabs.TFC_FOODS);
+		clayBucketBorscht = new ItemCustomBucketMilk().setUnlocalizedName("Clay Bucket Borscht").setContainerItem(woodenBucketEmpty).setCreativeTab(TFCTabs.TFC_FOODS);
+		borscht = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(0.584f).setWaterRestoreRatio(1f).setUnlocalizedName("Borscht").setCreativeTab(TFCTabs.TFC_FOODS);
+		GameRegistry.registerItem(woodenBucketBorscht, woodenBucketBorscht.getUnlocalizedName());
+		GameRegistry.registerItem(clayBucketBorscht, clayBucketBorscht.getUnlocalizedName());
+		GameRegistry.registerItem(borscht, borscht.getUnlocalizedName());
+		
+		woodenBucketKvass = new ItemCustomBucketMilk().setUnlocalizedName("Wooden Bucket Kvass").setContainerItem(woodenBucketEmpty).setCreativeTab(TFCTabs.TFC_FOODS);
+		clayBucketKvass = new ItemCustomBucketMilk().setUnlocalizedName("Clay Bucket Kvass").setContainerItem(woodenBucketEmpty).setCreativeTab(TFCTabs.TFC_FOODS);
+		kvass = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Grain).setCalories(0.584f).setWaterRestoreRatio(1f).setUnlocalizedName("Borscht").setCreativeTab(TFCTabs.TFC_FOODS);
+		GameRegistry.registerItem(woodenBucketBorscht, woodenBucketBorscht.getUnlocalizedName());
+		GameRegistry.registerItem(clayBucketBorscht, clayBucketBorscht.getUnlocalizedName());
+		GameRegistry.registerItem(borscht, borscht.getUnlocalizedName());
+		
+		drinks.add((ItemDrink) borscht);
+		BarrelManager.getInstance().addRecipe(new BarrelFireRecipe(ItemFoodTFC.createTag(new ItemStack(TFCItems.cabbage), 160), new FluidStack(TFCFluids.FRESHWATER, 1000), null, new FluidStack(Proxy.BORSCHT, 500), 0, 200)
+				.setFireTicksScale(true).setSealedRecipe(false).setRemovesLiquid(false));
+	}
+}

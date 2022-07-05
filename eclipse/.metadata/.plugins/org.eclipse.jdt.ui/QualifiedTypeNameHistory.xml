@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.dunk.tfc.CommonProxy"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.Core.Recipes"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.Crafting.BarrelManager"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.Crafting.BarrelFireRecipe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidStack"/>
+<fullyQualifiedTypeName name="com.muurr.tfcplusborsch.Proxy"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.Food.ItemSalad"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.Crafting.BarrelAlcoholRecipe"/>
+</qualifiedTypeNameHistroy>
