@@ -1,26 +1,41 @@
 item.Chicken Bouillon.name=Бутылка куриного бульона
+item.Bowl of Chicken Bouillon.name=Миска куриного бульона
 item.Meat Boillon.name=Бутылка мясного бульона
+item.Bowl of Meat Boillon.name=Миска мясного бульона
 item.Fish Boillon.name=Бутылка рыбного бульона
+item.Bowl of Fish Boillon.name=Миска рыбного бульона
 item.Mushroom Bouillon.name=Бутылка грибного бульона
-item.Bone Bouillon.name=Бутылка костяного бульона
+item.Bowl of Mushroom Bouillon.name=Миска грибного бульона
+item.Bone Bouillon.name=Бутылка бульона на кости
+item.Bowl of Bone Bouillon.name=Миска бульона на кости
 
 item.Chicken Soup.name=Бутылка куриного супа
+item.Bowl of Chicken Soup.name=Миска куриного супа
 item.Potato Soup.name=Бутылка картофельного супа
+item.Bowl of Potato Soup.name=Миска картофельного супа
 item.Cabbage Soup.name=Бутылка щей
+item.Bowl of Cabbage Soup.name=Миска щей
 item.Borscht.name=Бутылка борща
+item.Bowl of Borscht.name=Миска борща
 item.Fish Soup.name=Бутылка ухи
+item.Bowl of Fish Soup.name=Миска ухи
 item.Mushroom Soup.name=Бутылка грибного супа
+item.Bowl of Mushroom Soup.name=Миска грибного супа
 item.Peasant Soup.name=Бутылка крестьянского супа
+item.Bowl of Peasant Soup.name=Миска крестьянского супа
 item.Okroshka.name=Бутылка окрошки
+item.Bowl of Okroshka.name=Миска окрошки
 item.Cheese Soup.name=Бутылка сырного супа
+item.Bowl of Cheese Soup.name=Миска сырного супа
 item.Milk Soup.name=Бутылка молочного супа
+item.Bowl of Milk Soup.name=Миска молочного супа
 
 
 fluid.chickenbouillon=Куриный бульон
 fluid.meatbouillon=Мясной бульон
 fluid.fishbouillon=Рыбный бульон
 fluid.mushroombouillon=Грибной бульон
-fluid.bonebouillon=Костяной бульон
+fluid.bonebouillon=Бульон на кости
 
 fluid.chickensoup=Куриный суп
 fluid.potatosoup=Картофельный суп

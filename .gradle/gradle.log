@@ -15,7 +15,7 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: C:\Users\lenovo\Desktop\Modding\Borsch\build\sources\java\com\muurr\tfcplusborscht\ProperBarrelFireRecipe.java uses unchecked or unsafe operations.
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -37,4 +37,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 19.602 secs
+Total time: 12.517 secs

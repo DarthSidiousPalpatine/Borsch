@@ -15,7 +15,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class Borscht
 {
     public static final String MODID = "tfcplusborscht";
-    public static final String VERSION = "0.1";
+    public static final String VERSION = "1.1";
 
     @SidedProxy(clientSide = "com.muurr.tfcplusborscht.Proxy", serverSide = "com.muurr.tfcplusborscht.Proxy")
 	public static Proxy proxy;

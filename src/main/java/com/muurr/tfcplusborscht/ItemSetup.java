@@ -12,8 +12,6 @@ import com.dunk.tfc.api.Crafting.BarrelFireRecipe;
 import com.dunk.tfc.api.Crafting.BarrelManager;
 import com.dunk.tfc.api.Enums.EnumFoodGroup;
 
-import com.muurr.tfcplusborscht.ItemsList;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -28,99 +26,144 @@ public class ItemSetup extends TFCItems{
 	
 	//Bouillons
 	public static Item chickenbouillon;
+	public static Item chickenbouillonbowl;
 	public static final Fluid CHICKENBOUILLON = new FluidBaseTFC("chickenbouillon").setBaseColor(0xfffb92);
 	
 	public static Item meatbouillon;
+	public static Item meatbouillonbowl;
 	public static final Fluid MEATBOUILLON = new FluidBaseTFC("meatbouillon").setBaseColor(0xffd391);
 	
 	public static Item fishbouillon;
+	public static Item fishbouillonbowl;
 	public static final Fluid FISHBOUILLON = new FluidBaseTFC("fishbouillon").setBaseColor(0xfcffe8);
 	
 	public static Item mushroombouillon;
+	public static Item mushroombouillonbowl;
 	public static final Fluid MUSHROOMBOUILLON = new FluidBaseTFC("mushroombouillon").setBaseColor(0x87825f);
 	
 	public static Item bonebouillon;
+	public static Item bonebouillonbowl;
 	public static final Fluid BONEBOUILLON = new FluidBaseTFC("bonebouillon").setBaseColor(0xfffbe2);
 		
 	//Soups
 	public static Item chickensoup;
+	public static Item chickensoupbowl;
 	public static final Fluid CHICKENSOUP = new FluidBaseTFC("chickensoup").setBaseColor(0xfef02c);
 	
 	public static Item potatosoup;
+	public static Item potatosoupbowl;
 	public static final Fluid POTATOSOUP = new FluidBaseTFC("potatosoup").setBaseColor(0xded988);
 	
 	public static Item cabbagesoup;
+	public static Item cabbagesoupbowl;
 	public static final Fluid CABBAGESOUP = new FluidBaseTFC("cabbagesoup").setBaseColor(0xe79863);
 
 	public static Item borscht;
+	public static Item borschtbowl;
 	public static final Fluid BORSCHT = new FluidBaseTFC("borscht").setBaseColor(0x8c2c24);
 	
 	public static Item fishsoup;
+	public static Item fishsoupbowl;
 	public static final Fluid FISHSOUP = new FluidBaseTFC("fishsoup").setBaseColor(0xeeec82);
 	
 	public static Item mushroomsoup;
+	public static Item mushroomsoupbowl;
 	public static final Fluid MUSHROOMSOUP = new FluidBaseTFC("mushroomsoup").setBaseColor(0x8f7341);
 	
 	public static Item peasantsoup;
+	public static Item peasantsoupbowl;
 	public static final Fluid PEASANTSOUP = new FluidBaseTFC("peasantsoup").setBaseColor(0xf6d8a6);
 	
 	public static Item okroshka;
+	public static Item okroshkabowl;
 	public static final Fluid OKROSHKA = new FluidBaseTFC("okroshka").setBaseColor(0xeffadc);
 	
 	public static Item cheesesoup;
+	public static Item cheesesoupbowl;
 	public static final Fluid CHEESESOUP = new FluidBaseTFC("cheesesoup").setBaseColor(0xeeed72);
 	
 	public static Item milksoup;
+	public static Item milksoupbowl;
 	public static final Fluid MILKSOUP = new FluidBaseTFC("milksoup").setBaseColor(0xefefe8);
 
 	public static void setup()
 	{
 		//Bouillons
-		chickenbouillon = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setUnlocalizedName("Chicken Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) chickenbouillon);
+		chickenbouillon = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Chicken Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		chickenbouillonbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Chicken Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) chickenbouillon);
+		drinks.add((ProperItemDrink) chickenbouillonbowl);
 
-		meatbouillon = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setUnlocalizedName("Meat Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) meatbouillon);
+		meatbouillon = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Meat Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		meatbouillonbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Meat Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) meatbouillon);
+		drinks.add((ProperItemDrink) meatbouillonbowl);
 
-		fishbouillon  = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setUnlocalizedName("Fish Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) fishbouillon);
+		fishbouillon  = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Fish Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		fishbouillonbowl  = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Fish Boillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) fishbouillon);
+		drinks.add((ProperItemDrink) fishbouillonbowl);
 
-		mushroombouillon = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1f).setWaterRestoreRatio(1f).setUnlocalizedName("Mushroom Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) mushroombouillon);
+		mushroombouillon = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Mushroom Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		mushroombouillonbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Mushroom Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) mushroombouillon);
+		drinks.add((ProperItemDrink) mushroombouillonbowl);
 
-		bonebouillon = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(0.750f).setWaterRestoreRatio(1f).setUnlocalizedName("Bone Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) bonebouillon);
+		bonebouillon = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(0.750f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bone Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		bonebouillonbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(0.750f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Bone Bouillon").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) bonebouillon);
+		drinks.add((ProperItemDrink) bonebouillonbowl);
 		
 		//Soups
-		chickensoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setUnlocalizedName("Chicken Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) chickensoup);
+		chickensoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(2400).setUnlocalizedName("Chicken Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		chickensoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(2400).setUnlocalizedName("Bowl of Chicken Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) chickensoup);
+		drinks.add((ProperItemDrink) chickensoupbowl);
 
-		potatosoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setUnlocalizedName("Potato Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) potatosoup);
+		potatosoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Potato Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		potatosoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Potato Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) potatosoup);
+		drinks.add((ProperItemDrink) potatosoupbowl);
 
-		cabbagesoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setUnlocalizedName("Cabbage Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) cabbagesoup);
+		cabbagesoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Cabbage Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		cabbagesoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Cabbage Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) cabbagesoup);
+		drinks.add((ProperItemDrink) cabbagesoupbowl);
 
-		borscht = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(2f).setWaterRestoreRatio(0.500f).setUnlocalizedName("Borscht").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) borscht);
+		borscht = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(2f).setWaterRestoreRatio(0.500f).setHeatProtection(0).setColdProtection(3600).setUnlocalizedName("Borscht").setCreativeTab(TFCTabs.TFC_FOODS);
+		borschtbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(2f).setWaterRestoreRatio(0.500f).setHeatProtection(0).setColdProtection(3600).setUnlocalizedName("Bowl of Borscht").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) borscht);
+		drinks.add((ProperItemDrink) borschtbowl);
 
-		fishsoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setUnlocalizedName("Fish Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) fishsoup);
+		fishsoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Fish Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		fishsoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Fish Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) fishsoup);
+		drinks.add((ProperItemDrink) fishsoupbowl);
 
-		mushroomsoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setUnlocalizedName("Mushroom Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) mushroomsoup);
+		mushroomsoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Mushroom Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		mushroomsoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Protein).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(0).setColdProtection(1800).setUnlocalizedName("Bowl of Mushroom Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) mushroomsoup);
+		drinks.add((ProperItemDrink) mushroomsoupbowl);
 
-		peasantsoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.250f).setWaterRestoreRatio(1f).setUnlocalizedName("Peasant Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) peasantsoup);
+		peasantsoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(900).setUnlocalizedName("Peasant Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		peasantsoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Vegetable).setCalories(1.250f).setWaterRestoreRatio(1f).setHeatProtection(0).setColdProtection(900).setUnlocalizedName("Bowl of Peasant Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) peasantsoup);
+		drinks.add((ProperItemDrink) peasantsoupbowl);
 
-		okroshka = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setUnlocalizedName("Okroshka").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) okroshka);
+		okroshka = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(3600).setColdProtection(0).setUnlocalizedName("Okroshka").setCreativeTab(TFCTabs.TFC_FOODS);
+		okroshkabowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(3600).setColdProtection(0).setUnlocalizedName("Bowl of Okroshka").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) okroshka);
+		drinks.add((ProperItemDrink) okroshkabowl);
 
-		cheesesoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setUnlocalizedName("Cheese Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) cheesesoup);
+		cheesesoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(900).setColdProtection(900).setUnlocalizedName("Cheese Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		cheesesoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(900).setColdProtection(900).setUnlocalizedName("Bowl of Cheese Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) cheesesoup);
+		drinks.add((ProperItemDrink) cheesesoupbowl);
 
-		milksoup = new ItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setUnlocalizedName("Milk Soup").setCreativeTab(TFCTabs.TFC_FOODS);
-		drinks.add((ItemDrink) milksoup);
+		milksoup = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(1800).setColdProtection(0).setUnlocalizedName("Milk Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		milksoupbowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Dairy).setCalories(1.5f).setWaterRestoreRatio(0.500f).setHeatProtection(1800).setColdProtection(0).setUnlocalizedName("Bowl of Milk Soup").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) milksoup);
+		drinks.add((ProperItemDrink) milksoupbowl);
 	}
 	public static void setuprecipes()
 	{

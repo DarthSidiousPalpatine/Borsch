@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 06.07.22 9:53
+Description: Rendering item
+
+java.lang.NullPointerException: Rendering item
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:591)
+
+-- Item being rendered --
+Details:
+	Item Type: com.muurr.tfcplusborscht.ProperItemDrink@7e0ab0ac
+	Item Aux: 0
+	Item NBT: null
+	Item Foil: false
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:591)
+	at codechicken.nei.guihook.GuiContainerManager.drawSlotItem(GuiContainerManager.java:489)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146977_a(GuiContainer.java:288)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:114)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:44)
+	at com.dunk.tfc.GUI.GuiContainerCreativeTFC.drawScreen(GuiContainerCreativeTFC.java:786)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1137)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- Screen render details --
+Details:
+	Screen name: com.dunk.tfc.GUI.GuiContainerCreativeTFC
+	Mouse location: Scaled: (560, 305). Absolute: (1121, 417)
+	Screen size: Scaled: (960, 514). Absolute: (1920, 1027). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player924'/1398, l='MpServer', x=41,50, y=146,62, z=-15116,50]]
+	Chunk stats: MultiplayerChunkCache: 494, 494
+	Level seed: 7298367448545255713
+	Level generator: ID 00 - TFCDefault, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (38,148,-15111), Chunk: (at 6,9,9 in 2,-945; contains blocks 32,0,-15120 to 47,255,-15105), Region: (0,-30; contains chunks 0,-960 to 31,-929, blocks 0,0,-15360 to 511,255,-14849)
+	Level time: 576415 game time, 576415 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 65 total; [EntityClientPlayerMP['Player924'/1398, l='MpServer', x=41,50, y=146,62, z=-15116,50], EntityFishTFC['Pollock'/574, l='MpServer', x=-23,31, y=143,91, z=-15087,06], EntityFishTFC['Pollock'/575, l='MpServer', x=-17,88, y=143,00, z=-15071,13], EntityFishTFC['Pollock'/576, l='MpServer', x=-18,88, y=143,00, z=-15071,13], EntityFishTFC['Pollock'/578, l='MpServer', x=-25,34, y=143,84, z=-15084,94], EntityBison['Bison'/579, l='MpServer', x=-11,38, y=175,00, z=-15044,63], EntityBison['Bison'/580, l='MpServer', x=-11,50, y=183,00, z=-15034,50], EntityBison['Bison'/581, l='MpServer', x=-14,50, y=183,00, z=-15033,50], EntityBison['Bison'/583, l='MpServer', x=-14,69, y=178,00, z=-15040,47], EntityBison['Bison'/584, l='MpServer', x=-13,50, y=172,00, z=-15044,59], EntityBison['Bison'/586, l='MpServer', x=-20,66, y=173,00, z=-15040,47], EntityBison['Bison'/592, l='MpServer', x=-10,88, y=182,00, z=-15038,97], EntityBison['Bison'/594, l='MpServer', x=-17,50, y=182,00, z=-15034,50], EntityBison['Bison'/595, l='MpServer', x=-21,50, y=178,00, z=-15036,50], EntityBison['Bison'/599, l='MpServer', x=-11,50, y=183,00, z=-15036,50], EntityBison['Bison'/600, l='MpServer', x=-8,50, y=182,00, z=-15038,50], EntityBison['Bison'/605, l='MpServer', x=-17,50, y=183,00, z=-15032,50], EntityBison['Bison'/608, l='MpServer', x=-20,50, y=182,00, z=-15033,50], EntityFishTFC['Pollock'/655, l='MpServer', x=75,44, y=140,91, z=-15074,09], EntityFishTFC['Pollock'/656, l='MpServer', x=76,56, y=140,97, z=-15074,53], EntityFishTFC['Pollock'/657, l='MpServer', x=78,31, y=140,00, z=-15074,63], EntityFishTFC['Pollock'/659, l='MpServer', x=74,00, y=140,88, z=-15074,50], EntityFishTFC['Pollock'/660, l='MpServer', x=67,09, y=141,22, z=-15069,38], EntityFishTFC['Pollock'/661, l='MpServer', x=64,00, y=142,97, z=-15067,94], EntityFishTFC['Pollock'/662, l='MpServer', x=66,88, y=141,00, z=-15067,94], EntityFishTFC['Pollock'/664, l='MpServer', x=77,00, y=140,00, z=-15074,41], EntityFishTFC['Pollock'/665, l='MpServer', x=74,78, y=140,94, z=-15074,63], EntityFishTFC['Pollock'/666, l='MpServer', x=70,63, y=141,72, z=-15071,09], EntityFishTFC['Pollock'/668, l='MpServer', x=62,84, y=143,08, z=-15061,28], EntityFishTFC['Pollock'/669, l='MpServer', x=65,97, y=142,97, z=-15065,00], EntityFishTFC['Pollock'/673, l='MpServer', x=66,94, y=142,78, z=-15063,97], EntityFishTFC['Pollock'/674, l='MpServer', x=71,16, y=142,97, z=-15069,09], EntityFishTFC['Pollock'/675, l='MpServer', x=66,50, y=142,84, z=-15066,09], EntityFishTFC['Pollock'/676, l='MpServer', x=63,47, y=143,00, z=-15056,28], EntityFishTFC['Pollock'/677, l='MpServer', x=76,88, y=143,02, z=-15055,28], EntityFishTFC['Pollock'/678, l='MpServer', x=62,50, y=143,00, z=-15056,38], EntityFishTFC['Pollock'/691, l='MpServer', x=88,28, y=143,02, z=-15159,38], EntityFishTFC['Pollock'/692, l='MpServer', x=89,13, y=142,38, z=-15158,31], EntityFishTFC['Pollock'/694, l='MpServer', x=86,22, y=143,05, z=-15157,44], EntityFishTFC['Pollock'/695, l='MpServer', x=80,22, y=143,08, z=-15152,53], EntityFishTFC['Pollock'/696, l='MpServer', x=91,78, y=140,00, z=-15157,84], EntityFishTFC['Pollock'/697, l='MpServer', x=91,44, y=140,00, z=-15159,06], EntityFishTFC['Pollock'/699, l='MpServer', x=92,28, y=143,02, z=-15161,28], EntityFishTFC['Pollock'/700, l='MpServer', x=80,38, y=143,17, z=-15155,75], EntityFishTFC['Pollock'/701, l='MpServer', x=81,91, y=143,14, z=-15157,38], EntityFishTFC['Pollock'/705, l='MpServer', x=88,66, y=143,00, z=-15160,31], EntityFishTFC['Pollock'/707, l='MpServer', x=90,75, y=140,00, z=-15159,22], EntityFishTFC['Pollock'/708, l='MpServer', x=93,41, y=142,84, z=-15156,50], EntityFishTFC['Pollock'/749, l='MpServer', x=97,75, y=142,81, z=-15175,94], EntityFishTFC['Pollock'/750, l='MpServer', x=96,44, y=143,00, z=-15176,25], EntityFishTFC['Pollock'/751, l='MpServer', x=95,31, y=142,59, z=-15176,34], EntityFishTFC['Pollock'/753, l='MpServer', x=94,59, y=142,44, z=-15175,56], EntityFishTFC['Pollock'/754, l='MpServer', x=97,53, y=142,69, z=-15175,00], EntityFishTFC['Pollock'/755, l='MpServer', x=97,16, y=143,00, z=-15176,78], EntityFishTFC['Pollock'/757, l='MpServer', x=101,78, y=142,64, z=-15175,44], EntityFishTFC['Pollock'/803, l='MpServer', x=101,56, y=143,00, z=-15130,00], EntityFishTFC['Pollock'/804, l='MpServer', x=102,56, y=143,00, z=-15130,00], EntityFishTFC['Pollock'/806, l='MpServer', x=103,63, y=142,97, z=-15133,00], EntityFishTFC['Pollock'/810, l='MpServer', x=103,59, y=142,97, z=-15132,00], EntityFishTFC['Pollock'/817, l='MpServer', x=105,44, y=141,55, z=-15084,41], EntityFishTFC['Pollock'/818, l='MpServer', x=101,78, y=142,97, z=-15084,97], EntityFishTFC['Pollock'/837, l='MpServer', x=101,75, y=140,28, z=-15062,91], EntityFishTFC['Pollock'/843, l='MpServer', x=100,88, y=140,31, z=-15060,22], EntityFishTFC['Pollock'/844, l='MpServer', x=100,25, y=140,38, z=-15057,28], EntityFishTFC['Pollock'/845, l='MpServer', x=101,84, y=139,88, z=-15060,06]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 516723504 bytes (492 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	tfc_coremod{0.89.1} [TFC[coremod]] (minecraft.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.7.48} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal (1).jar) 
+	UCHIJAAAA	terrafirmacraftplus{0.89.1} [TerraFirmaCraft+] ([1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar) 
+	UCHIJAAAA	tfcplusborscht{1.1} [Borscht] (bin) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 457.49' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 1050/PCIe/SSE2 GL version 4.6.0 NVIDIA 457.49, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

@@ -1,19 +1,34 @@
 item.Chicken Bouillon.name=Bottle of Chicken Bouillon
+item.Bowl of Chicken Bouillon.name=Bowl of Chicken Bouillon
 item.Meat Boillon.name=Bottle of Meat Bouillon
+item.Bowl of Meat Boillon.name=Bowl of Meat Bouillon
 item.Fish Boillon.name=Bottle of Fish Bouillon
+item.Bowl of Fish Boillon.name=Bowl of Fish Bouillon
 item.Mushroom Bouillon.name=Bottle of Mushroom Bouillon
+item.Bowl of Mushroom Bouillon.name=Bowl of Mushroom Bouillon
 item.Bone Bouillon.name=Bottle of Bone Bouillon
+item.Bowl of Bone Bouillon.name=Bowl of Bone Bouillon
 
 item.Chicken Soup.name=Bottle of Chicken Soup
+item.Bowl of Chicken Soup.name=Bowl of Chicken Soup
 item.Potato Soup.name=Bottle of Potato Soup
+item.Bowl of Potato Soup.name=Bowl of Potato Soup
 item.Cabbage Soup.name=Bottle of Cabbage Soup
+item.Bowl of Cabbage Soup.name=Bowl of Cabbage Soup
 item.Borscht.name=Bottle of Borscht
+item.Bowl of Borscht.name=Bowl of Borscht
 item.Fish Soup.name=Bottle of Fish Soup
+item.Bowl of Fish Soup.name=Bowl of Fish Soup
 item.Mushroom Soup.name=Bottle of Mushroom Soup
+item.Bowl of Mushroom Soup.name=Bowl of Mushroom Soup
 item.Peasant Soup.name=Bottle of Peasant Soup
+item.Bowl of Peasant Soup.name=Bowl of Peasant Soup
 item.Okroshka.name=Bottle of Okroshka
+item.Bowl of Okroshka.name=Bowl of Okroshka
 item.Cheese Soup.name=Bottle of Cheese Soup
+item.Bowl of Cheese Soup.name=Bowl of Cheese Soup
 item.Milk Soup.name=Bottle of Milk Soup
+item.Bowl of Milk Soup.name=Bowl of Milk Soup
 
 
 fluid.chickenbouillon=Chicken Bouillon
