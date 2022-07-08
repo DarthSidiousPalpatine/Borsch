@@ -47,3 +47,12 @@ fluid.peasantsoup=Peasant Soup
 fluid.okroshka=Okroshka
 fluid.cheesesoup=Cheese Soup
 fluid.milksoup=Milk Soup
+
+
+item.Kvass Okroshka.name=Bottle of Kvass Okroshka
+item.Bowl of Kvass Okroshka.name=Bowl of Kvass Okroshka
+item.Zhur.name=Bottle of Zhur
+item.Bowl of Zhur.name=Bowl of Zhur
+
+fluid.kvassokroshka=Kvass Okroshka
+fluid.zhur=Zhur

@@ -4,7 +4,9 @@ import com.dunk.tfc.CommonProxy;
 import com.dunk.tfc.Core.FluidBaseTFC;
 import com.dunk.tfc.api.TFCFluids;
 import com.dunk.tfc.api.TFCItems;
+import com.muurr.tfcplusborscht.compatibility.CompatItemSetup;
 
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -47,6 +49,12 @@ public class Proxy {
 		GameRegistry.registerItem(ItemSetup.cheesesoupbowl, ItemSetup.cheesesoupbowl.getUnlocalizedName());
 		GameRegistry.registerItem(ItemSetup.milksoup, ItemSetup.milksoup.getUnlocalizedName());
 		GameRegistry.registerItem(ItemSetup.milksoupbowl, ItemSetup.milksoupbowl.getUnlocalizedName());
+		
+		if(Loader.isModLoaded("tfcpluskvass"))
+			GameRegistry.registerItem(CompatItemSetup.kvassokroshka, CompatItemSetup.kvassokroshka.getUnlocalizedName());
+			GameRegistry.registerItem(CompatItemSetup.kvassokroshkabowl, CompatItemSetup.kvassokroshkabowl.getUnlocalizedName());
+			GameRegistry.registerItem(CompatItemSetup.zhur, CompatItemSetup.zhur.getUnlocalizedName());
+			GameRegistry.registerItem(CompatItemSetup.zhurbowl, CompatItemSetup.zhurbowl.getUnlocalizedName());
 	}
 	public void registerFluids()
 	{
@@ -98,6 +106,15 @@ public class Proxy {
 		FluidRegistry.registerFluid(ItemSetup.MILKSOUP);
 		setupFluidDrinks(ItemSetup.MILKSOUP, 1000, ItemSetup.milksoup, TFCItems.glassBottle);
 		setupFluidDrinks(ItemSetup.MILKSOUP, 500, ItemSetup.milksoupbowl, 0, TFCItems.potteryBowl, 1);
+		
+		//Compat
+		if(Loader.isModLoaded("tfcpluskvass"))
+			FluidRegistry.registerFluid(CompatItemSetup.KVASSOKROSHKA);
+			setupFluidDrinks(CompatItemSetup.KVASSOKROSHKA, 1000, CompatItemSetup.kvassokroshka, TFCItems.glassBottle);
+			setupFluidDrinks(CompatItemSetup.KVASSOKROSHKA, 500, CompatItemSetup.kvassokroshkabowl, 0, TFCItems.potteryBowl, 1);
+			FluidRegistry.registerFluid(CompatItemSetup.ZHUR);
+			setupFluidDrinks(CompatItemSetup.ZHUR, 1000, CompatItemSetup.zhur, TFCItems.glassBottle);
+			setupFluidDrinks(CompatItemSetup.ZHUR, 500, CompatItemSetup.zhurbowl, 0, TFCItems.potteryBowl, 1);
 	}
 	
 	private void registerFluidContainerHelper(Fluid fluid, int baseVolume, ItemStack baseItem, ItemStack baseContainer)

@@ -47,3 +47,12 @@ fluid.peasantsoup=Крестьянский суп
 fluid.okroshka=Окрошка
 fluid.cheesesoup=Сырный суп
 fluid.milksoup=Молочный суп
+
+
+item.Kvass Okroshka.name=Бутылка окрошки на квасе
+item.Bowl of Kvass Okroshka.name=Миска окрошки на квасе
+item.Zhur.name=Бутылка жура
+item.Bowl of Zhur.name=Миска жура
+
+fluid.kvassokroshka=Окрошка на квасе
+fluid.zhur=Жур

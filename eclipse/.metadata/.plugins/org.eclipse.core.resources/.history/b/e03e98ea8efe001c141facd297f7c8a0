@@ -1,0 +1,40 @@
+package com.muurr.tfcplusborscht.compatibility;
+
+import com.dunk.tfc.Core.FluidBaseTFC;
+import com.dunk.tfc.Core.TFCTabs;
+import com.dunk.tfc.Food.ItemFoodTFC;
+import com.dunk.tfc.api.TFCFluids;
+import com.dunk.tfc.api.TFCItems;
+import com.dunk.tfc.api.Crafting.BarrelManager;
+import com.dunk.tfc.api.Enums.EnumFoodGroup;
+import com.muurr.tfcplusborscht.ItemSetup;
+import com.muurr.tfcplusborscht.ProperBarrelFireRecipe;
+import com.muurr.tfcplusborscht.ProperItemDrink;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidStack;
+
+public class CompatItemSetup extends TFCItems{
+	
+	//Bouillons
+	public static Item kvassokroshka;
+	public static Item kvassokroshkabowl;
+	public static final Fluid KVASSOKROSHKA = new FluidBaseTFC("kvassokroshka").setBaseColor(0xfffb92);
+	
+	public static void setup()
+	{
+		//Bouillons
+		kvassokroshka = new ProperItemDrink(1000).setFoodGroup(EnumFoodGroup.Grain).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(4800).setColdProtection(0).setUnlocalizedName("Chicken Kvass Okroshka").setCreativeTab(TFCTabs.TFC_FOODS);
+		kvassokroshkabowl = new ProperItemDrink(500, 3).setFoodGroup(EnumFoodGroup.Grain).setCalories(1.5f).setWaterRestoreRatio(0.750f).setHeatProtection(4800).setColdProtection(0).setUnlocalizedName("Bowl of Kvass Okroshka").setCreativeTab(TFCTabs.TFC_FOODS);
+		drinks.add((ProperItemDrink) kvassokroshka);
+		drinks.add((ProperItemDrink) kvassokroshkabowl);
+	}
+	
+	public static void setuprecipes()
+	{
+		//Bouillons
+		BarrelManager.getInstance().addRecipe(new ProperBarrelFireRecipe(ItemFoodTFC.createTag(new ItemStack(TFCItems.chickenRaw), 60), new FluidStack(ItemSetup., 500), null, new FluidStack(KVASSOKROSHKA, 750), 0, 100));
+	}
+}

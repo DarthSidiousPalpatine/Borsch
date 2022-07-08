@@ -64,5 +64,6 @@
 	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/Modding/Borsch/libs/[1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar" sourcepath="libs/[1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/Modding/Borsch/libs/[1.7.10]TerraFirmaCraftPlus-src-0.89.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/lenovo/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/start"/>
+	<classpathentry kind="lib" path="libs/Kvass 1.1.jar" sourcepath="C:/Users/lenovo/Desktop/Modding/Kvass"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

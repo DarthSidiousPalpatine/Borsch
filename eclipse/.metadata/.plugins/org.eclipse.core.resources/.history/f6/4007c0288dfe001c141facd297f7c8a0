@@ -1,0 +1,12 @@
+package com.muurr.tfcplusborscht.compatibility;
+
+import com.dunk.tfc.api.TFCItems;
+
+import net.minecraft.item.Item;
+
+public class CompatItemSetup extends TFCItems{
+	
+	//Bouillons
+	public static Item kvassokroshka;
+	public static Item kvassokroshkabowl;
+}

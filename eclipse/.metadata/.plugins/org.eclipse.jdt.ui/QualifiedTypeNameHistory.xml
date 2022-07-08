@@ -11,4 +11,7 @@
 <fullyQualifiedTypeName name="com.dunk.tfc.Food.ItemSalad"/>
 <fullyQualifiedTypeName name="com.dunk.tfc.api.Crafting.BarrelAlcoholRecipe"/>
 <fullyQualifiedTypeName name="com.dunk.tfc.api.TFCItems"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Loader"/>
+<fullyQualifiedTypeName name="com.muurr.tfcplusborscht.ItemSetup"/>
+<fullyQualifiedTypeName name="com.muurr.tfcplusborscht.compatibility.CompatItemSetup"/>
 </qualifiedTypeNameHistroy>
