@@ -1,9 +1,13 @@
 buildscript {
     repositories {
-        maven { url = "https://repo1.maven.org/maven2/" }
+        mavenCentral()
         maven {
-            name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            name = "gt"
+            url = "https://gregtech.mechaenetia.com/"
+        }
+        maven {
+            name = "gtnh"
+            url = "http://jenkins.usrv.eu:8081/nexus/content/groups/public/"
         }
         maven {
             name = "sonatype"
@@ -11,20 +15,22 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.0.+') { changing = true}
     }
 }
 
 apply plugin: 'forge'
 
-version = "1.0"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+version = "1.2"
+group= "com.muurr.tfcplusborscht" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "tfcplusborscht"
+targetCompatibility = sourceCompatibility = JavaVersion.VERSION_1_8
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
     runDir = "eclipse"
 }
+tasks.withType(JavaCompile) {options.encoding = 'UTF-8'}
 
 dependencies {
     // you may put jars on which you depend on in ./libs
